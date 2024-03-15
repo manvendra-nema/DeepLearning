@@ -1,15 +1,29 @@
 # DeepLearning
 
 ## Implementing Perceptron Training Algorithm (PTA)
-This repository contains the implementation of a Perceptron Training Algorithm (PTA) in Python. The PTA updates weights when a mistake is made, following the basic algorithm outlined in class.
+Implementation of a Perceptron Training Algorithm (PTA) in Python. The PTA updates weights when a mistake is made, following the basic algorithm outlined in class.
 
 Task Details
+
 a. Calculation of Steps for Convergence
+
 The number of steps necessary for convergence for the following operations have been calculated:
 
 i. Two variables: AND
+
 ii. Two variables: OR
+
 iii. One variable: NOT
+
+Example---
+
+![image](https://github.com/manvendra-nema/Fundamental-of-DeepLearning/assets/53614640/814261ee-127c-48f7-8025-5dca78636921)![image](https://github.com/manvendra-nema/Fundamental-of-DeepLearning/assets/53614640/6c55c14c-5b47-4737-9f5b-743cdf5da806)![image](https://github.com/manvendra-nema/Fundamental-of-DeepLearning/assets/53614640/dc80ac44-1736-40bc-9589-851771b9cf1c)![image](https://github.com/manvendra-nema/Fundamental-of-DeepLearning/assets/53614640/25ce5b69-39d1-494e-8f8b-f12ee349746d)![image](https://github.com/manvendra-nema/Fundamental-of-DeepLearning/assets/53614640/94275018-d9a7-4e1e-9333-210e3c4791c2)
+
+
+
+
+
+
 
 b. Drawing Decision Boundary
 Decision boundaries at each step of learning have been drawn for all three operations (AND, OR, NOT).
@@ -19,7 +33,7 @@ Theoretical demonstration and practical code implementation show that PTA cannot
 
 
 ## Implementation of Gradient Descent Algorithm
-This repository contains the implementation of the Gradient Descent Algorithm in Python from scratch to solve the optimization problem:
+Implementation of the Gradient Descent Algorithm in Python from scratch to solve the optimization problem:
 
 f(x₁, x₂) = x₁² + αx₂² - x₁*x₂ - x₁ - x₂
 
@@ -37,13 +51,13 @@ d. Iterations vs. Step Size
 Five different values of step size in the interval [0, 2] have been chosen arbitrarily. The number of iterations required to converge for each step size has been determined and plotted (x-axis = step size, y-axis = iterations required to converge). The initial condition of x₁ and x₂ remains the same in all cases.
 
 e. Iterations vs. α (Alpha)
-Five different values of α (Alpha) in the interval [0, 1] have been chosen arbitrarily. The number of iterations required to converge for each value of α has been determined and plotted (x-axis = α, y-axis = iterations required to converge). The initial condition of x₁ and x₂ remains the same in all cases.
+Five values of α (Alpha) in the interval [0, 1] have been chosen arbitrarily. The number of iterations required for each value of α has been determined and plotted (x-axis = α, y-axis = iterations required to converge). The initial condition of x₁ and x₂ remains the same in all cases.
 
 f. Exploring γ = -1
 The Gradient Descent implementation has been run for γ = -1, and a plot depicting Iteration versus the value of the function f in that iteration has been generated (x-axis = Iteration number, y-axis = value of the function f in that iteration). Observations and possible explanations for the observed behavior have been discussed.
 
 ## Implementation of Multilayer Perceptron (MLP) from Scratch
-This repository contains the implementation of a Multilayer Perceptron (MLP) in Python from scratch, along with a modular Deep Learning Toolkit for training the MLP on the Fashion-MNIST dataset.
+Implement a Multilayer Perceptron (MLP) in Python from scratch, along with a modular Deep Learning Toolkit for training the MLP on the Fashion-MNIST dataset.
 
 Task Details
 Implementation of MLP
