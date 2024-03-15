@@ -1,6 +1,6 @@
 # DeepLearning
-Deep Learning Related Project
-##Implementing Perceptron Training Algorithm (PTA)
+
+## Implementing Perceptron Training Algorithm (PTA)
 This repository contains the implementation of a Perceptron Training Algorithm (PTA) in Python. The PTA updates weights when a mistake is made, following the basic algorithm outlined in class.
 
 Task Details
@@ -18,7 +18,7 @@ c. Demonstration of XOR Operation
 Theoretical demonstration and practical code implementation show that PTA cannot compute XOR operation. The output or decision boundary at each step validates this observation.
 
 
-##Implementation of Gradient Descent Algorithm
+## Implementation of Gradient Descent Algorithm
 This repository contains the implementation of the Gradient Descent Algorithm in Python from scratch to solve the optimization problem:
 
 f(x₁, x₂) = x₁² + αx₂² - x₁*x₂ - x₁ - x₂
@@ -42,7 +42,7 @@ Five different values of α (Alpha) in the interval [0, 1] have been chosen arbi
 f. Exploring γ = -1
 The Gradient Descent implementation has been run for γ = -1, and a plot depicting Iteration versus the value of the function f in that iteration has been generated (x-axis = Iteration number, y-axis = value of the function f in that iteration). Observations and possible explanations for the observed behavior have been discussed.
 
-#Implementation of Multilayer Perceptron (MLP) from Scratch
+## Implementation of Multilayer Perceptron (MLP) from Scratch
 This repository contains the implementation of a Multilayer Perceptron (MLP) in Python from scratch, along with a modular Deep Learning Toolkit for training the MLP on the Fashion-MNIST dataset.
 
 Task Details
