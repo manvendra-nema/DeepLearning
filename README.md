@@ -2,17 +2,22 @@
 
 ## Implementing Perceptron Training Algorithm (PTA)
 
-Implementation of a Perceptron Training Algorithm (PTA) in Python. The PTA updates weights when a mistake is made, following the basic algorithm outlined in class.
+Implementation of a Perceptron Training Algorithm (PTA) in Python. The PTA updates weights when an error is made, following.
 
 ### Task Details
 
 #### Calculation of Steps for Convergence
 
-The number of steps necessary for convergence for the following operations have been calculated:
+The number of steps necessary for convergence for the following operations has been calculated:
 
 1. Two variables: AND
 2. Two variables: OR
 3. One variable: NOT
+
+#### Drawing Decision Boundary
+
+Decision boundaries at each step of learning have been drawn for all three operations (AND, OR, NOT).
+
 
 Example:
 
@@ -22,9 +27,6 @@ Example:
 ![Decision Boundary](https://github.com/manvendra-nema/Fundamental-of-DeepLearning/assets/53614640/25ce5b69-39d1-494e-8f8b-f12ee349746d)
 ![XOR](https://github.com/manvendra-nema/Fundamental-of-DeepLearning/assets/53614640/94275018-d9a7-4e1e-9333-210e3c4791c2)
 
-#### Drawing Decision Boundary
-
-Decision boundaries at each step of learning have been drawn for all three operations (AND, OR, NOT).
 
 #### Demonstration of XOR Operation
 
@@ -34,7 +36,7 @@ Theoretical demonstration and practical code implementation show that PTA cannot
 
 Implementation of the Gradient Descent Algorithm in Python from scratch to solve the optimization problem:
 
-f(x₁, x₂) = x₁² + αx₂² - x₁*x₂ - x₁ - x₂
+**_f(x₁, x₂) = x₁² + αx₂² - x₁*x₂ - x₁ - x₂_**
 
 ### Task Details
 
