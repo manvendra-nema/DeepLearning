@@ -1,6 +1,6 @@
 # Deep Learning
 
-## Implementing Perceptron Training Algorithm (PTA)
+## Implementing Perceptron Training Algorithm ( PTA )
 
 Implementation of a Perceptron Training Algorithm (PTA) in Python. The PTA updates weights when an error is made, following.
 
